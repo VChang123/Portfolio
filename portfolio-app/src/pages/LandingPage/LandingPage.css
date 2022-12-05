@@ -1,0 +1,48 @@
+.landingPage h1 {
+    font-family: 'HomePlanetBB-Regular';
+}
+
+.landingPage {
+    background-color: #E3E4E6;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 5%;
+
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.landingPage .image {
+    height: 80vh;
+    margin-left: 20%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    
+}
+
+.landingPage .childright{
+    flex:1;
+    border: white 10px solid;
+    height: 400px;
+    /* max-height: 60rem; */
+    max-width: 350px;
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 4% ;
+    margin-bottom: 3%;
+    padding: 2%;
+    text-align: left;
+    
+}
+
+.text {
+    margin-top: 18%;
+}
+
+.landingPage p {
+    font-family: 'Hind-Regular';
+}

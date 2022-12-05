@@ -1,0 +1,16 @@
+.navbar-brand, .nav-item, .nav-link{
+    font-family: 'HomePlanetBB-Regular';
+    font-size: 50px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .nav-link {
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 5%;
+  }
+
+  .white-nav {
+    background-color: rgb(246, 246, 246);
+  }

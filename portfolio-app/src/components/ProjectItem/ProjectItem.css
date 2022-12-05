@@ -1,0 +1,9 @@
+.projectItem a {
+    text-decoration: None;
+    color: black
+}
+
+.projectItem a:hover {
+    text-decoration: underline;
+    color: black;
+}

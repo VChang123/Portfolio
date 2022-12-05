@@ -1,0 +1,53 @@
+.contact {
+    background-color: #acacac;
+    width: 100%;
+    min-height: 60vh;
+}
+
+.contact h1 {
+    font-family: 'HomePlanetBB-Regular';
+    color: white;
+    
+}
+
+.contact p {
+    font-family: 'Hind-Regular';
+    text-align: left;
+    color: white;
+}
+
+
+.contact .parent {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+}
+
+
+.contact .leftchild {
+    flex: 0.3;
+    border-right: 2px white solid;
+    /* vertical-align: middle; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-left: 2%;
+
+}
+
+.contact .rightchild {
+    flex: 1.6;
+    /* border: 2px #9B9B9B solid; */
+    padding: 3%;
+    display: flex;
+    margin-left: 2%;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 1.4rem;
+    /* vertical-align: middle; */
+    font-family: 'Hind-Regular'
+}

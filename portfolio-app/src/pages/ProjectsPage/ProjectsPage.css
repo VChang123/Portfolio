@@ -1,0 +1,19 @@
+.projects {
+    background-color: white;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.projects h1 {
+    font-family: 'HomePlanetBB-Regular';
+    margin-top: 4%;
+}
+
+.title {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.project-grid {
+    padding: 3%;
+}
