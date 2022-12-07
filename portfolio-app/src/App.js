@@ -26,7 +26,7 @@ function App() {
         <ProjectsPage/>
         <ContactPage/> */}
 
-        {/* <Switch>
+        <Switch>
           <Route exact path="/">
             <LandingPage/>
             <AboutPage/>
@@ -51,10 +51,10 @@ function App() {
           <Route path='/iterative'>
             <IterativeDesign/>
           </Route>
-        </Switch> */}
+        </Switch>
 
 
-        <Development/>
+        {/* <Development/> */}
         {/* <IterativeDesign/> */}
         {/* <Redesign/> */}
         {/* <PersonaPage/> */}
