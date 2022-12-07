@@ -5,7 +5,7 @@ import "./AboutPage.css"
 
 export default function AboutPage() {
   return (
-    <div className='aboutPage'>
+    <div className='aboutPage' id='about'>
       <div className='parent'>
         <div className='leftchild'>
             <p> paragraph about mee</p>

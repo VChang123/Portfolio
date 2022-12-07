@@ -7,14 +7,15 @@ export default function (props) {
   return (
     <div className='projectItem'>
         <Card>
-            <Card.Img variant="top" src={props.image} />
+            <Card.Img variant="top" src={props.image} style={{height: "18rem"}}/>
             <Card.Body>
-                <Card.Title>{props.title}</Card.Title>
+                <Card.Title>
+                  <a href={props.link} class="stretched-link">
+                    {props.title}
+                  </a>
+                  </Card.Title>
                 <Card.Text>
-                    <a href={props.link} class="stretched-link">
-                        {props.description}
-                    </a>
-                    
+                    {props.description}   
                     
                 </Card.Text>
             </Card.Body>

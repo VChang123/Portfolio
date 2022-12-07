@@ -6,7 +6,7 @@ import "./ContactPage.css"
 
 export default function ContactPage() {
   return (
-    <div className='contact'>
+    <div className='contact' id='contact'>
        <div className='parent'>
             <div className='leftchild'>
                 <h1>Contact</h1>

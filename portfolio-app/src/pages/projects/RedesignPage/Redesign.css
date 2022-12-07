@@ -1,24 +1,29 @@
 .redesign {
     
     padding-top: 5%;
-    background-color: #D2D2D2;
+    background-color: #c1d3d9;
     width: 100%;
     min-height: 100vh;
+    text-align: left;
   }
 
+.redesign p {
+  margin: 2%;
+}
+
 .redesign  a {
-    color: #efe7ce;
+    color: #565656;
     background-color: transparent;
     text-decoration: none;
   }
   
 .redesign  a:hover {
-    color:#4E7248 ;
-    background-color: transparent;
-    text-decoration: none;
+  color:#ffffff ;
+  background-color: transparent;
+  text-decoration: none;
   }
 
-.header{
+.redesign .header{
     font-family: 'HomePlanetBB-Regular';
     color: #565656;
     font-size: 65px;
@@ -49,8 +54,9 @@
   .redesign .list {
     font-family: 'Hind-Regular';
     color:#565656;
-    font-size: 1.2em;
-    padding-left: 8%;
+    font-size: 1.1em;
+    padding-left: 6%;
+    padding-top:1%;
     text-align: left;
   }
   .redesign .box {
@@ -93,7 +99,49 @@
     height: 450px;
   
   }
-  
+  .redesign .desktop-image {
+    padding-left: 5%;
+    padding-top: 2%;
+    flex: 1;
+    height: 60%;
+    width: 70%;
+    padding-bottom: 1%;
+  }
+
+  .redesign .display-image {
+    padding: 2%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .redesign .box-white-solid {
+  border:3px solid white; 
+  border-radius: 5px;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-right: 2%;
+  padding-right: 2%;
+  background-color: white;
+
+}
+
+.redesign .box-white-border {
+  border:2px solid white; 
+    border-radius: 5px;
+    margin-left: 4%;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: 1%;
+
+}
+.redesign .box-last{
+  border:2px solid white; 
+  border-radius: 5px;
+  margin-left: 4%;
+  margin-top: 5%;
+  margin-right: 2%;
+  padding: 1%;
+}
 
   
   .redesign .big-div {
@@ -137,4 +185,88 @@
     margin-left: -3px;
     margin-top: -30px;
     top: 20px;
+  }
+
+
+  .redesign .table-bordered th, .table-bordered td , .table-bordered thead{
+ 
+    border: 1px solid #2d2d2d;
+  }
+  
+  .redesign table.table-bordered > thead > tr > th{
+    border:1px solid #2d2d2d;
+  }
+  
+  .redesign .table {
+    margin-left: 1%;
+  }
+
+  .redesign .style-guide {
+    margin-left: 27%;
+    margin-bottom: 2%;
+  }
+
+  .redesign .btn {
+    margin-left: 5%;
+    margin-top:2%;
+  }
+  
+  .redesign .btn-outline-success {
+    color: white !important ;
+    background-color: #565656;
+    border-color: #55755f;
+  
+  }
+  
+  .redesign .btn-outline-success:hover {
+    color: #565656 !important;
+    background-color: white;
+    border-color: #55755f;
+  
+  }
+  
+  .redesign  button a:hover {
+    color: white;
+  }
+
+  .redesign .btn a {
+    color: white;
+  }
+
+  .redesign .center-image {
+    padding: 2%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+
+
+  .image-prototype{
+    padding-left: 5%;
+    padding-top: 2%;
+    /* flex: 100%; */
+    height: 55%;
+    width: 77%;
+    padding-bottom: 2%;
+    /* align-items: center;
+    align-content: center;
+    justify-content: center; */
+    object-fit: scale-down;
+  
+  
+  }
+  
+  .image-prototype-desktop{
+    padding-left: 5%;
+    padding-top: 2%;
+    /* flex: 50%; */
+    height: 80%;
+    width: 98%;
+    padding-bottom: 2%;
+    object-fit: scale-down;
+  
+  
+  
   }

@@ -15,7 +15,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 
 export default function PersonaPage() {
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
         <div className='persona'>
             <div className='big-div'>
                 
@@ -50,7 +50,7 @@ export default function PersonaPage() {
                     
                     <h3 className = "sub-header"> 
                         <p id="interface-anchor">
-                            Interface
+                            INTERFACE
                         </p>
                     </h3>  
 
@@ -71,7 +71,7 @@ export default function PersonaPage() {
 
 
                     <h3 className = "sub-header"> 
-                        <p id="user-anchor">Users</p>
+                        <p id="user-anchor">USERS</p>
                 
                     </h3>
                     <div className = "box">
@@ -109,7 +109,7 @@ export default function PersonaPage() {
                     </div>
 
                     <h3 className = "sub-header"> 
-                        <p id="observation-anchor">Observations</p>
+                        <p id="observation-anchor">OBSERVATIONS</p>
                     
                     </h3>
                     <div className="box">
@@ -155,7 +155,7 @@ export default function PersonaPage() {
                 
                     <h3 className = "sub-header"> 
                         <p id="persona-anchor">
-                            Personas
+                            PERSONAS
                         </p>
                     </h3>
 
@@ -218,7 +218,7 @@ export default function PersonaPage() {
                     </div>
 
                     <h3 className = "sub-header"> 
-                        <p id="storyboard-anchor">Storyboard</p>    
+                        <p id="storyboard-anchor">STORYBOARD</p>    
                     </h3>
 
                     <div className="box">
@@ -234,7 +234,7 @@ export default function PersonaPage() {
 
 
                     <h3 className="sub-header">
-                        Conclusion
+                        CONCLUSION
                     </h3>
 
                     <div className="box">
@@ -249,6 +249,6 @@ export default function PersonaPage() {
                 </div>
             </div>
         </div>
-    </BrowserRouter>
+    // </BrowserRouter>
   )
 }

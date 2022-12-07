@@ -7,7 +7,7 @@ import succulent from "./Succulent.png"
 
 export default function LandingPage() {
   return (
-    <div className='landingPage'>
+    <div className='landingPage' id='home'>
       <div className='parent'>
         {/* <div className='childleft'> */}
           <img src={succulent} className="image"/>

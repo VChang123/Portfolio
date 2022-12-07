@@ -1,0 +1,186 @@
+.development {
+    
+    padding-top: 5%;
+    background-color: #D2D2D2;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+.development  a {
+    color: #565656;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.development  a:hover {
+    color:#ffffff ;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.header{
+    font-family: 'HomePlanetBB-Regular';
+    color: #565656;
+    font-size: 65px;
+    padding-top: 1em;
+    text-align: center;
+  }
+  
+  .development .sub-header {
+    font-family:'HomePlanetBB-Regular';
+    color:#565656;
+    font-size: 30px;
+    align-items: flex-start;
+    padding-top: 3%;
+    padding-left:5%;
+    text-align: left;
+  }
+  .development .text {
+    font-family: 'Hind-Regular';
+    color:#565656;
+    font-size: 1.1em;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top:2%;
+    padding-bottom:2%;
+    text-align: left;
+    margin:0px;
+  }
+  .development .list {
+    font-family: 'Hind-Regular';
+    color:#565656;
+    font-size: 1.1em;
+    padding-left: 5%;
+    text-align: left;
+  }
+  .development .box {
+    border:2px solid #565656; 
+    border-radius: 5px;
+    margin-left: 4%;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: 1%;
+    text-align: left;
+  
+  }
+  .development .section-header {
+    font-family:'Hind-Regular';
+    color: #565656;
+    font-size: 1.5em;
+    padding-left: 3%;
+    padding-top:3%;
+    padding-bottom:0.5%;
+    text-align: left;
+  }
+  
+  .development .highlight-text {
+    color:#539DA0;
+  }
+  .development .navbar-brand, .nav-item {
+    font-family:'Hind-Regular';
+    color: #565656;
+    font-size: large;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  
+  .development .image {
+    padding-left: 3%;
+    padding-top: 4%;
+    flex: 1;
+    margin-left:1%;
+    display: block;
+    
+    width: 90%;
+
+  
+  }
+  
+  .development .image-persona {
+    margin-left: 4%;
+    padding-left: 5%;
+    padding-top: 4%;
+    /* flex: 1; */
+  
+  }
+  
+  .development .text-persona{
+    font-size: large;
+    font-family:'Hind-Regular';
+    color:#565656;
+    padding-top: 3%;
+    text-align: left;
+    padding-left: 5%;
+    margin-left: 18%;
+  }
+  
+  .development .big-div {
+    display: flex;
+    justify-content: space-between;
+    /* width: 50%; */
+  }
+  .development .flex-child-right {
+    flex: 1;
+    /* border: 2px solid blueviolet; */
+    margin: 10px;
+    
+  }
+  .development .flex-child-left{
+   
+    /* flex: 1; */
+    padding-top: 13%;
+    padding-left: 0%;
+    text-align: left;
+    margin-left: 0%;
+    margin-top: 10%;
+    width: 30%;
+    flex: 0.15;
+    height: 40vh;
+    font-family:'Hind-Regular';
+    padding-top: 15px;
+    padding-left: 3em;
+    color: #565656;
+    font-size: larger;
+    border-right: 2px solid #565656;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 17%;
+  }
+  
+  .development .vl {
+    border-left: 2px solid #565656;
+    height: 900px;;
+    position: absolute;
+    left: 17%;
+    margin-left: -3px;
+    margin-top: -30px;
+    top: 20px;
+  }
+
+
+  .development .btn {
+    margin-left: 3%;
+    margin-bottom: 2%;
+  }
+  
+  .development .btn-outline-success {
+    color: white !important ;
+    background-color: #565656;
+    border-color: white;
+  
+  }
+
+  .development .btn-outline-success:hover {
+    color: #565656 !important;
+    background-color: white;
+    border-color: #55755f;
+  
+  }
+  
+  .development  button a:hover {
+    color: white;
+  }
+
+  .development .btn a {
+    color: white;
+  }
