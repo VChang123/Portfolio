@@ -27,7 +27,7 @@ function App() {
         <ContactPage/> */}
 
         <Switch>
-          <Route exact path="/">
+          <Route path="/">
             <LandingPage/>
             <AboutPage/>
             <ProjectsPage/>
