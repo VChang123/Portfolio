@@ -162,7 +162,7 @@ export default function PersonaPage() {
                     <div className="image-persona">
                         <img src={persona1} alt="Image of the empathy map for persona 1" height="500" width="500"/>
                         <div  className="text-persona">
-                            <span class="highlight-text">Sleepy Samantha </span> is a college student in her junior year studying CS; 
+                            <span className="highlight-text">Sleepy Samantha </span> is a college student in her junior year studying CS; 
                             <br/>she often likes to snack on a variety of foods and spends most of 
                             <br/>her time doing homework in her room.
                         </div>                       

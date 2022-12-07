@@ -10,7 +10,7 @@ export default function (props) {
             <Card.Img variant="top" src={props.image} style={{height: "18rem"}}/>
             <Card.Body>
                 <Card.Title>
-                  <a href={props.link} class="stretched-link">
+                  <a href={props.link} className="stretched-link">
                     {props.title}
                   </a>
                   </Card.Title>

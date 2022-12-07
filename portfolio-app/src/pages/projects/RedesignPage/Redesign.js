@@ -48,22 +48,22 @@ export default function Redesign() {
               </p>
 
 
-              <div class="sub-header">
+              <div className="sub-header">
                 <a id="PartOne">Part 1: Identifying Usability Problems</a>
               </div>
 
-              <div class="box">
-                <p class="section-header">
+              <div className="box">
+                <p className="section-header">
                   PICKING A WEBSITE
                 </p> 
-                <div class="display-image">
+                <div className="display-image">
                
-                  <img class="desktop-image" src={screenshot1} alt="Screenshot of the landing page for toronto cupcake"/>
-                  <img class="desktop-image" src={screenshot2} alt="Screenshot of what the side bar looks like"/>
+                  <img className="desktop-image" src={screenshot1} alt="Screenshot of the landing page for toronto cupcake"/>
+                  <img className="desktop-image" src={screenshot2} alt="Screenshot of what the side bar looks like"/>
       
                 </div>
 
-                  <ul class="list">
+                  <ul className="list">
                     <li>
                       This website for Toronto Cupcake was chosen because it does not necessarily 
                       have the best layout for users to easily navigate and 
@@ -79,8 +79,8 @@ export default function Redesign() {
 
 
 
-               <div class="box-white-border">
-                  <p class="section-header">
+               <div className="box-white-border">
+                  <p className="section-header">
                     FINDING PROBLEMS
                   </p>
 
@@ -97,7 +97,7 @@ export default function Redesign() {
                       <tr>
                         <td>Usability</td>
                         <td>
-                            <ul class="list">
+                            <ul className="list">
                               <li>
                                 This websites design does not lend itself to being very 
                                 user friendly especially if they are first time users
@@ -130,7 +130,7 @@ export default function Redesign() {
                       <tr>
                         <td>Learnability</td>
                         <td>
-                            <ul class="list">
+                            <ul className="list">
                               <li>
                                 First Time users: It might be hard for them to figure out where 
                                 the different tabs are located. This is because users need to scroll all the 
@@ -155,7 +155,7 @@ export default function Redesign() {
                       <tr>
                         <td>Memorability</td>
                         <td >
-                            <ul class="list">
+                            <ul className="list">
                               <li>
                                 The memorability of this website is not very good because  
                                 the hamburger icon is small and in an awkward place.
@@ -172,7 +172,7 @@ export default function Redesign() {
                       <tr>
                         <td>Conceptual Model</td>
                         <td>
-                            <ul class="list">
+                            <ul className="list">
                               <li>
                                 The conceptual model for this website is that the 
                                 hamburger icon implies to the user that it is clickable 
@@ -191,11 +191,11 @@ export default function Redesign() {
                 </div>  
 
 
-              <div class="box">
-                <p class="section-header">
+              <div className="box">
+                <p className="section-header">
                   ACCESSIBILITY
                 </p>
-                <ul class="list">
+                <ul className="list">
                   <li>
                     Some of the warnings that were detected was 
                     that there are device specific interactions. 
@@ -212,86 +212,86 @@ export default function Redesign() {
 
 
 
-              <div class="sub-header">
+              <div className="sub-header">
                 <a id="PartTwo">Part 2: Visual Redesign</a> 
 
                 </div>
 
-                <div class="box">
-                  <p class="section-header">
+                <div className="box">
+                  <p className="section-header">
                     LOW-FIDELITY PROTOTYPE
                   </p>
-                  <ul class="list">
+                  <ul className="list">
                     <li>
                       This low-fidelity prototype was created using Balsamique Wireframes
                     </li>
                   </ul>
-                  <img class="image" src={desktop1} alt="image of mobile phone lofi prototype"/>
-                  <img class="image" src={desktop2} alt="image of tablet lofi prototype"/>
-                  <img class="image" src={desktop3} alt="image of desktop lofi prototype"/>
+                  <img className="image" src={desktop1} alt="image of mobile phone lofi prototype"/>
+                  <img className="image" src={desktop2} alt="image of tablet lofi prototype"/>
+                  <img className="image" src={desktop3} alt="image of desktop lofi prototype"/>
               </div>
 
                         
-              <div class="box-white-border">
-                <p class="section-header">
+              <div className="box-white-border">
+                <p className="section-header">
                   STYLEGUIDE
                 </p>
-                <div class="style-guide">
+                <div className="style-guide">
                   <img src={styleguide} alt="Image of the syle guide for the Toronto Cupcake website" height="70%" width="70%"/>
                 </div>
               </div>
 
 
-              <div class="box">
-                <p class="section-header">
+              <div className="box">
+                <p className="section-header">
                   HIGH-FIDELITY PROTOTYPE
                 </p>
-                <ul class="list">
+                <ul className="list">
                   <li>
                     This high-fidelity prototype was created with Figma
                   </li>
                 </ul>
 
-                <p class="section-header"> MOBILE PROTOTYPE</p>
-                <div class="center-image">
-                  <img class="image-prototype" src={mobileAnnotated}alt="Annotated mobile prototype"/>
-                  <img class="image-prototype" src={mobilePrototype} alt = "mobile prototype"/>
+                <p className="section-header"> MOBILE PROTOTYPE</p>
+                <div className="center-image">
+                  <img className="image-prototype" src={mobileAnnotated}alt="Annotated mobile prototype"/>
+                  <img className="image-prototype" src={mobilePrototype} alt = "mobile prototype"/>
                 </div>
 
-                <p class="section-header"> TABLET PROTOTYPE</p>
-                <div class="center-image">
-                  <img class="image-prototype" src={tabletAnnotated} alt="Annotated tablet prototype"/>
-                  <img class="image-prototype" src={tabletPrototype} alt = "Tablet prototype"/>
+                <p className="section-header"> TABLET PROTOTYPE</p>
+                <div className="center-image">
+                  <img className="image-prototype" src={tabletAnnotated} alt="Annotated tablet prototype"/>
+                  <img className="image-prototype" src={tabletPrototype} alt = "Tablet prototype"/>
                 </div>
             
 
-                <p class="section-header"> DESKTOP PROTOTYPE</p>
-                <div class="center-image">
-                  <img class= "image-prototype-desktop" src={desktopAnnotated} alt="Annotated desktop prototype"/>
-                  <img class="image-prototype-desktop" src={desktopPrototype} alt = "Desktop prototype"/>
+                <p className="section-header"> DESKTOP PROTOTYPE</p>
+                <div className="center-image">
+                  <img className= "image-prototype-desktop" src={desktopAnnotated} alt="Annotated desktop prototype"/>
+                  <img className="image-prototype-desktop" src={desktopPrototype} alt = "Desktop prototype"/>
                 </div>
 
               </div>
 
-              <div class="sub-header">
+              <div className="sub-header">
                   <a id="PartThree">Part 3: Responsive Redesign</a>
 
               </div>
 
               <div>
-                <button type="button" class="btn btn-outline-success">
+                <button type="button" className="btn btn-outline-success">
                   <a href="https://sadopossum246.github.io/TorontoCupcake/">Visit New Website</a>
                 </button>
               </div>
 
                         
-              <div class="sub-header">
+              <div className="sub-header">
                 Conclusion
 
               </div>
 
-              <div class="box-last">
-                <ul class = "list">
+              <div className="box-last">
+                <ul className = "list">
                   <li>
                     This project helped me learn how the design and prototype process works, starting from an 
                     existing product and analyzing how it could be improved and then creating

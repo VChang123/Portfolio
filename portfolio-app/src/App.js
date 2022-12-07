@@ -27,28 +27,28 @@ function App() {
         <ContactPage/> */}
 
         <Switch>
-          <Route path="/">
+          <Route exact path="/Portfolio">
             <LandingPage/>
             <AboutPage/>
             <ProjectsPage/>
             <ContactPage/>
           </Route>
-          <Route path='/about'>
+          <Route path='/Portfolio/about'>
             <AboutPage/> 
           </Route>
-          <Route path="/projects">
+          <Route path="/Portfolio/projects">
             <ProjectsPage/>
           </Route>
-          <Route path='/contact'>
+          <Route path='/Portfolio/contact'>
             <ContactPage/>
           </Route>
-          <Route path='/persona'>
+          <Route path='/Portfolio/persona'>
             <PersonaPage/>
           </Route>
-          <Route path='/redesign'>
+          <Route path='/Portfolio/redesign'>
             <Redesign/>
           </Route>
-          <Route path='/iterative'>
+          <Route path='/Portfolio/iterative'>
             <IterativeDesign/>
           </Route>
         </Switch>

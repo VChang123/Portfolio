@@ -6,6 +6,7 @@ import "./NavBar.css"
 
 
 
+
 export default function NavBar() {
   return (
     <div>
@@ -13,13 +14,14 @@ export default function NavBar() {
             <Container>
             <Navbar.Brand href="/"></Navbar.Brand>
             <Nav className="ms-auto">
-                <Nav.Link href="/#about" style={{fontSize: "1.3rem"}}>
+                
+                <Nav.Link href="/Portfolio/#about" style={{fontSize: "1.3rem"}}>
                     About
                 </Nav.Link>
-                <Nav.Link href="/#projects" style={{fontSize: "1.3rem", marginLeft:"9%"}}>
+                <Nav.Link href="/Portfolio/#projects" style={{fontSize: "1.3rem", marginLeft:"9%"}}>
                     Projects
                 </Nav.Link>
-                <Nav.Link href="/#contact" style={{fontSize: "1.3rem", marginLeft:"9%", marginRight:"6%"}}>
+                <Nav.Link href="/Portfolio/#contact" style={{fontSize: "1.3rem", marginLeft:"9%", marginRight:"6%"}}>
                     Contact
                 </Nav.Link>
             </Nav>

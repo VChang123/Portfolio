@@ -88,7 +88,7 @@ export default function Development() {
                     <p className='text'>
                         Here is a link to the website!
                     </p>
-                    <button type="button" class="btn btn-outline-success">
+                    <button type="button" className="btn btn-outline-success">
                         <a href='https://sadopossum246.github.io/CS1300Development/'> Visit Plant Shop</a>
                     </button>
                 </div>

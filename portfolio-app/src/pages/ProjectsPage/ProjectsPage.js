@@ -21,17 +21,17 @@ export default function ProjectsPage() {
         <div className='project-grid'>
           <Row xs={1} md={2} className="g-4">
             <Col> 
-              <ProjectItem image={persona} link={"/persona"} title={"Persona"} description={"A project focused on exploring how people interact with interfaces and creating personas"}/>
+              <ProjectItem image={persona} link={"/Portfolio/persona"} title={"Persona"} description={"A project focused on exploring how people interact with interfaces and creating personas"}/>
             </Col>
             <Col>
-              <ProjectItem image={redesign} link={"/redesign"}title={"Redesign"} description={"Learning the how the design process works and trying to build a responsive website"}/>
+              <ProjectItem image={redesign} link={"/Portfolio/redesign"}title={"Redesign"} description={"Learning the how the design process works and trying to build a responsive website"}/>
             </Col>
             <Col>
-              <ProjectItem image={development} title={"Development"} description={"test"}/>            
+              <ProjectItem image={development} title={"/Portfolio/Development"} description={"test"}/>            
             </Col>
             <Col>
              
-              <ProjectItem image={iterative} link={"/iterative"}title={"Iterative Design"} description={"Designing high quality protoypes involving user testing"}/>
+              <ProjectItem image={iterative} link={"/Portfolio/iterative"}title={"Iterative Design"} description={"Designing high quality protoypes involving user testing"}/>
 
             </Col>
           </Row>
