@@ -26,7 +26,7 @@ function App() {
         <ProjectsPage/>
         <ContactPage/> */}
 
-        <Switch>
+        <Routes>
           <Route exact path="/Portfolio">
             <LandingPage/>
             <AboutPage/>
@@ -36,7 +36,7 @@ function App() {
           <Route path='/Portfolio/about'>
             <AboutPage/> 
           </Route>
-          <Route path="/Portfolio/projects">
+          <Route path='/Portfolio/projects'>
             <ProjectsPage/>
           </Route>
           <Route path='/Portfolio/contact'>
@@ -51,7 +51,34 @@ function App() {
           <Route path='/Portfolio/iterative'>
             <IterativeDesign/>
           </Route>
-        </Switch>
+        </Routes>
+
+        {/* <Switch>
+          <Route exact path="/Portfolio">
+            <LandingPage/>
+            <AboutPage/>
+            <ProjectsPage/>
+            <ContactPage/>
+          </Route>
+          <Route path='/Portfolio/about'>
+            <AboutPage/> 
+          </Route>
+          <Route path='/Portfolio/projects'>
+            <ProjectsPage/>
+          </Route>
+          <Route path='/Portfolio/contact'>
+            <ContactPage/>
+          </Route>
+          <Route path='/Portfolio/persona'>
+            <PersonaPage/>
+          </Route>
+          <Route path='/Portfolio/redesign'>
+            <Redesign/>
+          </Route>
+          <Route path='/Portfolio/iterative'>
+            <IterativeDesign/>
+          </Route>
+        </Switch> */}
 
 
         {/* <Development/> */}
