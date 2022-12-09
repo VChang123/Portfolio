@@ -1,7 +1,8 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 import "./ProjectItem.css"
-
+// import NavLink from 'react-bootstrap/esm/NavLink';
+import { NavLink } from 'react-router-dom';
 
 export default function (props) {
   return (
@@ -10,9 +11,9 @@ export default function (props) {
             <Card.Img variant="top" src={props.image} style={{height: "18rem"}}/>
             <Card.Body>
                 <Card.Title>
-                  <a href={props.link} className="stretched-link">
+                  <NavLink to={props.link} className="stretched-link">
                     {props.title}
-                  </a>
+                  </NavLink>
                   </Card.Title>
                 <Card.Text>
                     {props.description}   

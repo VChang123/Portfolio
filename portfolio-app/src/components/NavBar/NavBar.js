@@ -3,6 +3,10 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "./NavBar.css"
+// import NavLink from 'react-bootstrap/esm/NavLink';
+import { NavLink } from 'react-router-dom';
+// import {Link} from 'react-scroll'
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 
@@ -12,18 +16,18 @@ export default function NavBar() {
     <div>
         <Navbar variant="light" fixed='top' className='white-nav'>
             <Container>
-            <Navbar.Brand href="/"></Navbar.Brand>
+            <Navbar.Brand to="/"></Navbar.Brand>
             <Nav className="ms-auto">
                 
-                <Nav.Link href="/Portfolio/#about" style={{fontSize: "1.3rem"}}>
+                <Link to="/Portfolio/#about"  style={{fontSize: "1.3rem"}}>
                     About
-                </Nav.Link>
-                <Nav.Link href="/Portfolio/#projects" style={{fontSize: "1.3rem", marginLeft:"9%"}}>
+                </Link>
+                <Link to="/Portfolio/#projects" style={{fontSize: "1.3rem", marginLeft:"9%"}}>
                     Projects
-                </Nav.Link>
-                <Nav.Link href="/Portfolio/#contact" style={{fontSize: "1.3rem", marginLeft:"9%", marginRight:"6%"}}>
+                </Link>
+                <Link to="/Portfolio/#contact"  style={{fontSize: "1.3rem", marginLeft:"9%", marginRight:"6%"}}>
                     Contact
-                </Nav.Link>
+                </Link>
             </Nav>
             </Container>
         </Navbar>

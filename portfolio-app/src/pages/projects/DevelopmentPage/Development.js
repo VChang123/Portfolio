@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Development.css"
-import { HashLink as Link } from 'react-router-hash-link'
+import { HashLink as Link } from 'react-router-hash-link';
+import development from  "./development.PNG";
 
 
 
@@ -18,12 +19,12 @@ export default function Development() {
                 <p className = "side-header">  
                     <Link to="#designIterations" >Design</Link>
                 </p>
+                <p className='side-header'>
+                    <Link to="#website">Website</Link>
+                </p>
                 <p className = "side-header"> 
                     <Link to="#takeaways">Takeaways</Link> 
                     
-                </p>
-                <p className='side-header'>
-                    <Link to="#website">Website</Link>
                 </p>
                 <p className = "side-header"> 
                     <Link to="#conclusion" >Conclusion</Link>
@@ -61,7 +62,11 @@ export default function Development() {
                         <li> Each plant is displayed on a card alongside with its description and price</li>
                         <li> The different filters and sorting options are displayed along the top of the page for easy access</li>
                         <li> The cart is displayed to the right of the plant options in order to have all the necessary components 
-                            displayed on the screen.
+                            displayed on the screen. This will ensure that all the necessary things that the 
+                            user might look for are on one page.
+                        </li>
+                        <li>
+                            Each item in the cart also has the option to remove or add more of that item.
                         </li>
                     </ul>
                     {/* image of the website here */}
@@ -72,8 +77,34 @@ export default function Development() {
                         CODE DESIGN
                     </p>
                     <ul>
-                        <li> Components</li>
-                        <li> Pages</li>
+                        <li> 
+                            Components
+                            <ul>
+                                <li>
+                                    Components that were made were for the filter dropdown and the sort filter. These
+                                    components were made because they were similar and could be reused
+                                </li>
+        
+                            </ul>
+                        </li>
+                        <li> 
+                            Pages
+                            <ul>
+                                <li>
+                                    Most of the logic was done in the FilteredList javascript file. This file 
+                                    kept the state of the list and the state of the filters based on what 
+                                    the user selected and re-rendered the page based on that.
+    
+                                </li>
+                                <li>
+                                    The FilteredList file, also kept track of the state of the cart.
+                                </li>
+                                <li>
+                                    The DisplayList file, is the one responsible for rendering the items in 
+                                    the cart and changing based the current state of the cart.
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
 
@@ -85,6 +116,7 @@ export default function Development() {
                 </h3> 
 
                 <div className='box'>
+                    <img src={development} className="image"/>
                     <p className='text'>
                         Here is a link to the website!
                     </p>
@@ -103,7 +135,9 @@ export default function Development() {
 
                 <div className='box'>
                     <ul className='list'>
-                        <li> takeaways </li>
+                        <li> I learned how to use state with React </li>
+                        <li> I also learned how to make resusable components</li>
+                        <li> Learned how to design a functional website with a purpose</li>
                     </ul>
                 </div> 
 
@@ -112,6 +146,16 @@ export default function Development() {
                         Conclusion
                     </p>
                 </h3> 
+
+                <div className='box'>
+                    <p className='text'>
+                        I learned a lot about how to create a functional and reactive website that takes 
+                        in user input. It was also really interesting learning how best to design the 
+                        layout of the website and think about accessibility and usability. I also
+                        was able to learn how to debug javascript better.
+                    </p>
+
+                </div>
             </div>
 
 

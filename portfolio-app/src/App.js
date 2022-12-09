@@ -18,40 +18,13 @@ import Development from './pages/projects/DevelopmentPage/Development';
 
 function App() {
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
       <div className="App">
-        <NavBar/>
-        {/* <LandingPage/>
+        
+        <LandingPage/>
         <AboutPage/>
         <ProjectsPage/>
-        <ContactPage/> */}
-
-        <Routes>
-          <Route exact path="/Portfolio">
-            <LandingPage/>
-            <AboutPage/>
-            <ProjectsPage/>
-            <ContactPage/>
-          </Route>
-          <Route path='/Portfolio/about'>
-            <AboutPage/> 
-          </Route>
-          <Route path='/Portfolio/projects'>
-            <ProjectsPage/>
-          </Route>
-          <Route path='/Portfolio/contact'>
-            <ContactPage/>
-          </Route>
-          <Route path='/Portfolio/persona'>
-            <PersonaPage/>
-          </Route>
-          <Route path='/Portfolio/redesign'>
-            <Redesign/>
-          </Route>
-          <Route path='/Portfolio/iterative'>
-            <IterativeDesign/>
-          </Route>
-        </Routes>
+        <ContactPage/>
 
         {/* <Switch>
           <Route exact path="/Portfolio">
@@ -86,7 +59,7 @@ function App() {
         {/* <Redesign/> */}
         {/* <PersonaPage/> */}
       </div>
-    </BrowserRouter>
+    // </BrowserRouter>
   );
 }
 
