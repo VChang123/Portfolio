@@ -24,14 +24,14 @@ export default function Redesign() {
         <div className='big-div'>
             <div className = "flex-child-left">
                 <p className = "side-header">  
-                    <Link to="#PartOne" >Usability Problems</Link>
+                    <Link to="#PartOne" >Part One</Link>
                 </p>
                 <p className = "side-header"> 
-                    <Link to="#PartTwo">Visual Redesign</Link> 
+                    <Link to="#PartTwo">Part Two</Link> 
                     
                 </p>
                 <p className = "side-header"> 
-                    <Link to="#PartThree" >Redesign</Link>
+                    <Link to="#PartThree" >Part Three</Link>
                 
                 </p>
             </div>

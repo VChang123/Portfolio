@@ -40,10 +40,8 @@ export default function Development() {
                     websites and mobile applications. The main goal of this project was to get familiar with 
                     the language and the use of state in this application. State is a very powerful concept that can 
                     allow the website to change based on the current state of a component. 
-                    <br/>
-                    <br/>
-                    By building a simple plant shop website it allowed me to learn how to use State and learn
-                    about React in general
+    
+                   
                 </p>
 
 
@@ -149,10 +147,12 @@ export default function Development() {
 
                 <div className='box'>
                     <p className='text'>
+                        By building a simple plant shop website it 
+                        allowed me to learn how to use State and learn about React in general.
                         I learned a lot about how to create a functional and reactive website that takes 
                         in user input. It was also really interesting learning how best to design the 
                         layout of the website and think about accessibility and usability. I also
-                        was able to learn how to debug javascript better.
+                        was able to learn how to debug javascript better. 
                     </p>
 
                 </div>

@@ -27,7 +27,7 @@ export default function ProjectsPage() {
               <ProjectItem image={redesign} link={"/Portfolio/redesign"}title={"Redesign"} description={"Learning the how the design process works and trying to build a responsive website"}/>
             </Col>
             <Col>
-              <ProjectItem image={development} link={"/Portfolio/development"} title={"Development"} description={"test"}/>            
+              <ProjectItem image={development} link={"/Portfolio/development"} title={"Development"} description={"A project focused on learning React and designing a functional website"}/>            
             </Col>
             <Col>
              

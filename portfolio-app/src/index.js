@@ -15,12 +15,14 @@ import ProjectsPage from './pages/ProjectsPage/ProjectsPage';
 import ContactPage from './pages/ContactPage/ContactPage';
 import PersonaPage from './pages/projects/PersonaPage/PersonaPage';
 import Development from './pages/projects/DevelopmentPage/Development';
+import ScrollToTop from './ScrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    
     <BrowserRouter>
+      <ScrollToTop/>
       <NavBar/>
       <Routes>
           <Route exact path="/Portfolio" element={  <App /> }/>

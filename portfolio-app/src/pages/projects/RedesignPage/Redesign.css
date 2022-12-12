@@ -1,7 +1,7 @@
 .redesign {
     
     padding-top: 5%;
-    background-color: #c1d3d9;
+    background-color: #e0e0e0;
     width: 100%;
     min-height: 100vh;
     text-align: left;
@@ -31,13 +31,18 @@
     text-align: center;
   }
   
+.redesign .side-header {
+  margin-top: 7%;
+}
   .redesign .sub-header {
     font-family:'HomePlanetBB-Regular';
     color:#565656;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 7px;
     align-items: flex-start;
+    margin-top: 5%;
     padding-top: 3%;
-    padding-left:5%;
+    padding-left:4%;
     text-align: left;
   }
   .redesign .text {

@@ -45,7 +45,9 @@ export default function PersonaPage() {
 
                     <p className = "text"> 
                         This project involved finding a public interface and seeing how users interact with it. 
-                        Then 2 user personas and a storyboard were constructed from those observations.
+                        Then 2 user personas and a storyboard were constructed from those observations. The purpose of
+                        this project is to learn about how people interact with users, and based on those observatiosns
+                        create some personas to represent users.
                     </p>
                     
                     <h3 className = "sub-header"> 
@@ -142,11 +144,11 @@ export default function PersonaPage() {
                                 settings based on the state of their clothes.
                             </li>
                             <li>
-                                A <span className="highlight-text">difficulty</span> observed by both User 1 and User 3 was 
-                                <span className="highlight-text"> where to put the laundry detergent in the detergent</span>
-                                drawer. <span className="highlight-text">User 3</span> mentioned that the different containers were all labeled <span class="highlight-text">"WASH"</span> 
+                                A difficulty observed by both User 1 and User 3 was 
+                                where to put the laundry detergent in the detergent
+                                drawer. User 3 mentioned that the different containers were all labeled "WASH"
                                 which were not very helpful in 
-                                finding where to put the detergent. <span className="highlight-text">User 1</span> also mentioned that the text that was labeling the container were in small white raised
+                                finding where to put the detergent. User 1 also mentioned that the text that was labeling the container were in small white raised
                                 text, which was the same color as the containers, and made it hard to see.
                             </li>
                             
@@ -162,7 +164,7 @@ export default function PersonaPage() {
                     <div className="image-persona">
                         <img src={persona1} alt="Image of the empathy map for persona 1" height="500" width="500"/>
                         <div  className="text-persona">
-                            <span className="highlight-text">Sleepy Samantha </span> is a college student in her junior year studying CS; 
+                            Sleepy Samantha  is a college student in her junior year studying CS; 
                             <br/>she often likes to snack on a variety of foods and spends most of 
                             <br/>her time doing homework in her room.
                         </div>                       
@@ -188,7 +190,7 @@ export default function PersonaPage() {
                     <div className="image-persona">
                         <img src={persona2} alt="Image of the empathy map for persona 2" height="500" width="500"/>
                         <div  className="text-persona">
-                            <span className="highlight-text"> Motivated Max </span>is a newly graduated student 
+                            Motivated Max is a newly graduated student 
                             working as a civil servant; 
                             <br/> he really wants to help 
                             improve the lives of other people and likes to go
@@ -222,7 +224,7 @@ export default function PersonaPage() {
                     </h3>
 
                     <div className="box">
-                    <p className="text"> This is a storyboard for <span className="highlight-text">Sleepy Samantha</span></p>
+                    <p className="text"> This is a storyboard for Sleepy Samantha</p>
                         
                     </div>
                     <div  className = "image">
@@ -241,7 +243,8 @@ export default function PersonaPage() {
                         <p className="text"> 
                         Overall this project taught me how to build personas based on observations and how to create a 
                         storyboard for the interactions between the user and the interface. I also learned what is 
-                        important to look for when observing users and how to create good interview questions.
+                        important to look for when observing users and how to create good interview questions. Additionally,
+                        it was really interesting constructing a storyboard and trying to emulate a persona that we created.
                         </p>
                     </div>
 

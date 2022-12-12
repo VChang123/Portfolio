@@ -29,10 +29,12 @@
   .iterative .sub-header {
     font-family:'HomePlanetBB-Regular';
     color:#565656;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 7px;
     align-items: flex-start;
+    margin-top: 5%;
     padding-top: 3%;
-    padding-left:5%;
+    padding-left:4%;
     text-align: left;
   }
   .iterative .text {

@@ -19,7 +19,7 @@ import Development from './pages/projects/DevelopmentPage/Development';
 function App() {
   return (
     // <BrowserRouter>
-      <div className="App">
+      <div className="App" id="home">
         
         <LandingPage/>
         <AboutPage/>

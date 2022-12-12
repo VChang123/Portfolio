@@ -14,23 +14,15 @@ export default function IterativeDesign() {
         <div className='big-div'>
             <div className = "flex-child-left">
                 <p className = "side-header">  
-                    <Link to="#interface-anchor" >Interface</Link>
+                    <Link to="#partOne" >Part One</Link>
                 </p>
                 <p className = "side-header"> 
-                    <Link to="#user-anchor">Users</Link> 
+                    <Link to="#partTwo">Part Two</Link> 
                     
                 </p>
                 <p className = "side-header"> 
-                    <Link to="#observation-anchor" >Observations</Link>
+                    <Link to="#partThree" >Part Three</Link>
                 
-                </p>
-                <p className = "side-header"> 
-                    <Link to="#persona-anchor">Personas</Link>
-                
-                </p>
-                <p classNamess = "side-header"> 
-                    <Link to="#storyboard-anchor">Storyboard</Link>
-                    
                 </p>
             </div>
 
