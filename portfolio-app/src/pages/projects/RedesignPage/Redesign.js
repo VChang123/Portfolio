@@ -280,7 +280,8 @@ export default function Redesign() {
 
               <div>
                 <button type="button" className="btn btn-outline-success">
-                  <a href="https://sadopossum246.github.io/TorontoCupcake/">Visit New Website</a>
+                  <a href="https://sadopossum246.github.io/TorontoCupcake/" target="_blank" rel="noopener noreferrer">
+                    Visit New Website</a>
                 </button>
               </div>
 

@@ -128,12 +128,14 @@ export default function IterativeDesign() {
                     
                     <img src={hifiv1} className="image"/>
                     
-                    
-                    <a href="https://www.figma.com/proto/ueyfcHzIOqNaDh4eWByOjz/CS1300-Iterative-Assignment?node-id=1%3A23&scaling=scale-down&page-id=2%3A21&starting-point-node-id=1%3A23"target="_blank">
-                        <button type="button" className="btn btn-outline-success"> 
-                        VIEW V1 PROTOTYPE
-                        </button>
-                    </a>
+                    <button type="button" className="btn btn-outline-success"> 
+                        <a href="https://www.figma.com/proto/ueyfcHzIOqNaDh4eWByOjz/CS1300-Iterative-Assignment?node-id=1%3A23&scaling=scale-down&page-id=2%3A21&starting-point-node-id=1%3A23"
+                            target="_blank" rel="noopener noreferrer">
+                            
+                            VIEW V1 PROTOTYPE
+                        
+                        </a>
+                    </button>
                 </div> 
 
 
@@ -177,12 +179,14 @@ export default function IterativeDesign() {
                     
                     <img src={hifiv2} className="image"/>
                     
-                    
-                    <a href="https://www.figma.com/proto/ueyfcHzIOqNaDh4eWByOjz/CS1300-Iterative-Assignment?node-id=123%3A7&scaling=scale-down&page-id=123%3A6&starting-point-node-id=123%3A7"target="_blank">
-                        <button type="button" className="btn btn-outline-success"> 
-                            VIEW V2 PROTOTYPE
-                        </button>
-                    </a>
+                    <button type="button" className="btn btn-outline-success"> 
+                        <a href="https://www.figma.com/proto/ueyfcHzIOqNaDh4eWByOjz/CS1300-Iterative-Assignment?node-id=123%3A7&scaling=scale-down&page-id=123%3A6&starting-point-node-id=123%3A7"
+                        target="_blank" rel="noopener noreferrer">
+                            
+                                VIEW V2 PROTOTYPE
+                            
+                        </a>
+                    </button>
                 </div> 
 
 
@@ -201,15 +205,24 @@ export default function IterativeDesign() {
                         their audio and video recordings below.
                     </p>
                     <p>
-                        <a href="https://app.usertesting.com/v/460696ea-3693-4d9a-aadc-39755a211c7c?encrypted_video_handle=5d727f8d-72eb-4560-8a8b-b45a1e314734#!/answers&shared_via=link">
-                            <button type="button" className="btn btn-outline-success">USER 1</button>
-                        </a> 
-                        <a href="https://app.usertesting.com/v/b91b2371-0013-45a4-be18-3bd8bc5fdf07?back=https%3A%2F%2Fapp.usertesting.com%2Fdashboard#!/answers&shared_via=link">
-                            <button type="button" className="btn btn-outline-success">USER 2</button>
-                        </a> 
-                        <a href="https://app.usertesting.com/v/c975427a-e25e-462b-afa9-43534c9a008d?encrypted_video_handle=cd68c144-a8c1-485e-ad84-3323903b3a20#!/answers&shared_via=link">
-                            <button type="button" className="btn btn-outline-success">USER 3</button>
-                        </a>
+                        <button type="button" className="btn btn-outline-success">
+                            <a href="https://app.usertesting.com/v/460696ea-3693-4d9a-aadc-39755a211c7c?encrypted_video_handle=5d727f8d-72eb-4560-8a8b-b45a1e314734#!/answers&shared_via=link"
+                            target="_blank" rel="noopener noreferrer">
+                                USER 1
+                            </a> 
+                        </button>
+                        <button type="button" className="btn btn-outline-success">
+                            <a href="https://app.usertesting.com/v/b91b2371-0013-45a4-be18-3bd8bc5fdf07?back=https%3A%2F%2Fapp.usertesting.com%2Fdashboard#!/answers&shared_via=link" 
+                            target="_blank" rel="noopener noreferrer">
+                                USER 2
+                            </a> 
+                        </button>
+                        <button type="button" className="btn btn-outline-success">
+                            <a href="https://app.usertesting.com/v/c975427a-e25e-462b-afa9-43534c9a008d?encrypted_video_handle=cd68c144-a8c1-485e-ad84-3323903b3a20#!/answers&shared_via=link"
+                            target="_blank" rel="noopener noreferrer">
+                            USER 3
+                            </a>
+                        </button>
                     </p>
                 </div> 
 
