@@ -28,7 +28,7 @@ export default function NavBar() {
 
                         </img>
                 </Link>
-                <Nav className="ms-auto">
+                <Nav className="ms-auto1">
                     
                     <Link to="/Portfolio/#about"  
                         style={

@@ -9,6 +9,9 @@
     padding-top: 5%;
 
 }
+.landingPage .description {
+    margin-top: 45%;
+}
 
 .parent {
     display: flex;
@@ -27,7 +30,7 @@
 .landingPage .childright{
     flex:1;
     border: white 10px solid;
-    height: 400px;
+    height: 67vh;
     /* max-height: 60rem; */
     max-width: 350px;
     margin-left: 5%;
